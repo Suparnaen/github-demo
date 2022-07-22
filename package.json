@@ -1,14 +1,15 @@
 {
-  "name": "github-demo",
+  "name": "gi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:record": "npx Cypress run --record --key 9a58c183-7963-47ca-ad5e-984895d6fcfd"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "cypress": "^10.3.1"
   }
 }
